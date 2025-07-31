@@ -10,6 +10,4 @@ and allows users to perform a 5 km buffer operation with dynamic symbology and l
 
 1. **Clone or Download the Project**
 
-   ```bash
-   git clone https://github.com/your-username/earthquake-buffer-viewer.git
-   cd earthquake-buffer-viewer
+   git clone https://github.com/anand93r/GIS_Web.git
