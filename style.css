@@ -1,0 +1,46 @@
+html,body,#viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    button {
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+    #bufferBtn{
+        position: absolute; 
+        top: 20%; 
+        left: 10px; 
+        z-index: 99;
+    }
+    #exportBtn{
+        position: absolute; 
+        top: 24%; 
+        left: 10px;
+         z-index: 99;
+    }
+    #legend{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        background: white;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        z-index: 99;
+    }
+    #lcontent{
+        margin-top: 5px;
+    }
+    #lspan{
+        display: inline-block; 
+        width: 12px; 
+        height: 12px; 
+        background: orange; 
+        border: 1px solid white; 
+        border-radius: 50%; 
+        margin-right: 5px;
+    }

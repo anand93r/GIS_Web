@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>GIS_Practical_Test</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.31/esri/themes/light/main.css" />
+  <script src="https://js.arcgis.com/4.31/"></script>
+
+  <link rel ="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="viewDiv">
+    <button id="bufferBtn">
+      Buffer (5 km)
+    </button>
+    <button id="exportBtn">
+      Export GeoJSON
+    </button>
+    <div id="legend">
+      <strong>Legend</strong><br>
+      <div id = "lcontent">
+        <span id = "lspan"></span>
+        Earthquake Points
+      </div>
+    </div>
+    <div id="viewDiv"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
